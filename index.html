@@ -17,7 +17,8 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <div class="logo"><img src="./assets/img/dev.png" alt="" / width="60px"></div>
+                    <a class="navbar-brand" href="#"> <i class="fa-solid fa-house"></i> <span class="fw-bold">Binevenidos</span></a>
+                    <!-- <div class="logo"><img src="./assets/img/dev.png" alt="" / width="100px"></div> -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav">
                             <li class="nav-item">
@@ -36,19 +37,22 @@
                     <div class="col-md-3">
                         <img src="assets/img/foto3.jpg" class="img-fluid rounded-start" alt="..." />
                         <div class="card-body">
-                            <h1>Felipe Andres Huenuqueo</h1>
-                            <h5>Desarrollador Backend</h5>
+                            <h3><i class="fa-solid fa-user"></i> Felipe Huenuqueo</h3>
+                            <h5 class="fst-italic"><i class="fa-solid fa-code"></i> Desarrollador Backend</h5>
                         </div>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 mt-4">
                         <div class="card-body">
-                            <h5 class="card-title">Sobre mi</h5>
-                            <p class="card-text"><span class="text-description">Me gusta desarrollar apliaciones de diversos tipos, me gustan los desafios y probar nuevas tecnologias que me ayuden a aprender y resolver problemas</span></p>
+                            <h5 class="card-title"><i class="fa-brands fa-github"></i> Sobre mi</h5>
+                            <ul>
+                                <li>
+                                    <p class="card-text"><span class="text-description">Me gusta desarrollar apliaciones de diversos tipos, me gustan los desafios y probar nuevas tecnologias que me ayuden a aprender y resolver problemas</span></p>
+                                </li>
+                            </ul>
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Experiencia</h5>
-
+                            <h5 class="card-title"><i class="fa-solid fa-briefcase"></i> Experiencia</h5>
                             <ul>
                                 <li>Desarrollador de micro servicios REST en Java y spring boot | Helpcom | actualidad</li>
                                 <li>Desarrollador de aplicaciones Desktop en Java | Helpcom | 2020 - actualidad</li>
@@ -57,7 +61,7 @@
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Educacion</h5>
+                            <h5 class="card-title"><i class="fa-solid fa-graduation-cap"></i> Educacion</h5>
                             <ul>
                                 <li>Desarrollo con Java y Spring boot | Curso Udemy</li>
                                 <li>Analista programador | IP Santo Tomas</li>
@@ -68,20 +72,22 @@
                 </section>
 
                 <section class="p-3 col-ms-12 col-md-12 col-lg-12">
-                    <h5 class="card-title"><i class="fa-solid fa-star"></i>Colaboraciones</h5>
+                    <h5 class="card-title"><i class="fa-solid fa-star"></i> Colaboraciones:</h5>
                     <!-- Dejame tu saludos dentro del siguente div -->
                     <div class="saludos">
-                        <!-- ejemplo: -->
-                        <p>Hola Felipe, happy code!!</p>
+                        <div class="alert alert-primary" role="alert">Hola Felipe, happy code!!</div>
                     </div>
                 </section>
 
                 <section class="p-5 col-ms-12 col-md-12 col-lg-12 bg-dark text-white">
                     <div class="formulario">
-                        <h5>Contacto</h5>
+                        <h5>Contactame</h5>
                         <form>
                             <div class="mb-3">
                                 <input type="text" class="form-control" placeholder="Nombre" id="exampleInputPassword1" />
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Telefono" id="exampleInputEmail1" aria-describedby="emailHelp" />
                             </div>
                             <div class="mb-3">
                                 <input type="email" class="form-control" placeholder="Correo Electrónico" id="exampleInputEmail1" aria-describedby="emailHelp" />
