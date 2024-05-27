@@ -8,7 +8,7 @@ footer {
 }
 
 .card-desafio {
-  box-shadow: 2px -0px rgb(235, 234, 234);
+  box-shadow: 2px 4px rgb(173, 133, 80);
   transition: transform 330ms ease-in-out;
 }
 
