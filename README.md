@@ -1,0 +1,1 @@
+- Se agregaron fotos con evidencia de forks y contribucion como colaborador
